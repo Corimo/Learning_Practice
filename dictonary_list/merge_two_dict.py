@@ -3,7 +3,7 @@ dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
 
 dict3 ={}
 
-def merge_dict(first, second):
+def merge_dict(first, second): #first is the dictionary we are adding to and second is the dictonary we are getting inofrmatiion from
     for item in second:
         if item not in first:
             first[item] = second.get(item)
