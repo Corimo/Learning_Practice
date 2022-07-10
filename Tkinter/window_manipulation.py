@@ -15,7 +15,7 @@ poop.resizable(False, False)
 poop.minsize(300, 150)
 poop.maxsize(1200, 600)
 poop.attributes('-alpha', 0.9)
-poop.attributes("-topmost", True)
+poop.attributes("-topmost", False)
 poop.iconbitmap('Tkinter\icon\pythontutorial.ico')
 poop.configure(background="#333333")
 
